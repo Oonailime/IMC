@@ -88,6 +88,8 @@ const data = [
   function cleanInputs() {
     heightInput.value = "";
     weightInput.value = "";
+    downInput.value = "";
+
     imcNumber.className = "";
     imcInfo.className = "";
   }
